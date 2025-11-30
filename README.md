@@ -2,11 +2,9 @@
 
 ![Demo App](/public/demo-for-readme.png)
 
-[Video Tutorial on Youtube](https://youtu.be/R9PwoQwVpPQ)
-
 Some Features:
 
--   ⚛️ Tech Stack: Next.js 14, TypeScript, Prisma, MongoDB, Stripe
+-   ⚛️ Tech Stack: Next.js 16, TypeScript, Prisma, MongoDB, Stripe
 -   🔐 Authentication with Kinde Auth
 -   💸 Monthly and Annually Subscriptions with Stripe
 -   💵 Building a Stripe Billing Portal
@@ -14,7 +12,7 @@ Some Features:
 -   🔄 Stripe Event Types
 -   🌗 Light/Dark Mode
 -   🌐 Deployment
--   ✅ This is a lot of work. Support me by subscribing to the [Youtube Channel](https://www.youtube.com/@asaprogrammer_)
+
 
 ### Setup .env file
 
@@ -50,17 +48,3 @@ npm install
 ```shell
 npm run dev
 ```
-
-## `Timestamps` for your convenience 👇
-
--   00:00:00 - Demo
--   00:01:04 - App Setup
--   00:06:20 - MongoDB and Prisma Setup
--   00:16:40 - Auth Setup with Kinde
--   00:19:40 - Understanding Auth Callbacks
--   00:32:50 - Stripe Subscriptions Setup
--   00:49:00 - Webhooks and API Route
--   01:16:10 - Building a Customer Portal
--   01:22:40 - Detailed Deployment and thank you!
-
-### I'll see you in the next one! 🚀
