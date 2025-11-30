@@ -1,4 +1,3 @@
-import prisma from "@/db/prisma";
 import { stripe } from "@/lib/stripe";
 import Stripe from "stripe";
 
@@ -16,6 +15,9 @@ export async function POST(req: Request) {
 		console.error("Webhook signature verification failed.", err.message);
 		return new Response(`Webhook Error: ${err.message}`, { status: 400 });
 	}
+
+	// Lazily import Prisma here so the client isn't constructed at build-time
+	const prisma = (await import("@/db/prisma")).default;
 
 	// Handle the event
 	try {
